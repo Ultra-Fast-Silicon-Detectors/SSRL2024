@@ -11,11 +11,44 @@ Softwares and analysis pacakges are basically the same as the previous SSRL test
 
 # Tools and analysis packages
 
-TODO
 - Data convertion and prep [BetaScope-DAQ](https://github.com/neko-0/BetaScope-DAQ): `https://github.com/neko-0/BetaScope-DAQ`
 - Waveoform analysis [WaveformAna](https://github.com/neko-0/WaveformAna): `https://github.com/neko-0/WaveformAna`
 - Histogram, pltos, fits etc `pyssrl`:
     - requires package [collinearw](https://gitlab.cern.ch/scipp/collinear-w/collinearw) : `https://gitlab.cern.ch/scipp/collinear-w/collinearw`
+
+## Manual installation
+
+### Installing waveform analysis
+```bash
+git clone https://github.com/neko-0/WaveformAna
+cd WaveformAna
+source setup.sh
+```
+if set up is finished correctly, simply compile the codes with typing `build`.
+Every time if there is change to the source file, you need to type `build` to recompile.
+
+### Installing python pakcages
+First create a virtual environment via `python -m venv py3`, then `source py3/bin/activate`. Un-tar and install the `collinearw` package:
+
+```bash
+mkdir collinearw
+tar xf collinearw.tar.gz -C collinearw --strip-components=1
+cd collinearw
+python -m pip install -e .
+```
+
+## Docker image
+The `Dockerfile` is provided to build the environment for waveform analysis, to build the image
+
+```bash
+docker build -t ufsd_ssrl:1.0 .
+```
+
+Then it should be available via (TODO: mount point etc)
+
+```bash
+docker run -it ufsd_ssrl:1.0
+```
 
 # Converting scope data (H5) format to ROOT format
 
@@ -125,3 +158,5 @@ The `pyssrl` (TODO upload) package is used for post-processing and histograming 
 ## Toy Monte Carlo for Compton scattering.
 
 TODO
+
+## GEANT simulation for X-rays and LGAD related thing.
