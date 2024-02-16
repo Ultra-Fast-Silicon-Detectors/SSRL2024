@@ -102,3 +102,26 @@ Then, to submit jobs from the `JSON` file via:
 ```bash
 python ~/BetaScope-DAQ/daq_runners/hdf5_to_root.py --mode scope-batch --joblist jobs.json --jobname "HPK3p2,BNL20um" 
 ```
+
+# Waveform analysis
+
+## Running waveform analysis
+
+After setting up the analysis tools, commandline interface should be avaible.
+
+For standard scope data (non-digitizer runs), the SSRL routine can be used to perform waveform analysis:
+
+```bash
+run_Ana --selector SSRL --directory path_to_raw_wavforms_root_files --config config.yaml
+```
+
+The `--selector` picks the implemented analysis routine. There are also other quick analysis routine to perform simple check during the beam test (TODO). The `config.yaml` fine tune the metthods and setting for the `SSRL` analysis routine, e.g. baseline correction etc.
+
+## Post-processing (Histogram, plots, etc)
+
+The `pyssrl` (TODO upload) package is used for post-processing and histograming steps. The padckage is built from the collinear W+jets package ([collinearw](https://gitlab.cern.ch/scipp/collinear-w/collinearw)), with dedicated custom filling routine and objects for the `SSRL`.
+
+
+## Toy Monte Carlo for Compton scattering.
+
+TODO
