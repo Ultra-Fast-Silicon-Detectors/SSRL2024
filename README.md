@@ -1,9 +1,9 @@
 # SSRL 2024 X-rays beam test for Low Gain Avalanche Detectors (LGADs)
 LGAD X-rays Test Beam at SSRL (2024). The repository is for documenting related software and analysis codes for the 2024 SSRL beam test.
 
-Data conversion, scripts for analsys routines and methods, and possiblly logbook infomation? can be found here.
+Data conversion, scripts for analsys routines and methods, and logbook infomation can be found here.
 
-Logbook and shift schedule can be found here: `xxxxxx (TODO update)`
+Logbook and shift schedule can be found here: [2024_SSRL_run](https://drive.google.com/drive/folders/1eRdXsyAIbnhs2xJvsL8nBAKjm6VIcOl0?usp=sharing)
 
 Beam test data will be stored on the UFSD NAS. 
 
@@ -48,6 +48,16 @@ Then it should be available via (TODO: mount point etc)
 
 ```bash
 docker run -it ufsd_ssrl:1.0
+```
+
+# Setup enviornment
+After login or inside docker, run the following setup steps:
+
+```bash
+cd WaveformAna
+source setup.sh
+cd ..
+source py3/bin/activate
 ```
 
 # Converting scope data (H5) format to ROOT format
