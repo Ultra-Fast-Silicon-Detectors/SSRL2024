@@ -1,0 +1,20 @@
+general:
+  store_waveform: true
+  use_single_t_trace: false
+  use_single_input_t_trace: false
+  nchannels: 4
+  baseline_opt: 1
+  run_type: 1
+  do_max_ch: false
+  threshold: 0
+
+buckets:
+  bucket_t_start: -44e-9
+  bucket_t_end: 2.08e-9
+  nbuckets: 28
+
+fix_window:
+  fill_fix_window: true
+  fix_win_start: -44e-9
+  fix_win_step_size: 2.08e-9
+  fix_win_nstep: 28
