@@ -61,7 +61,7 @@ source py3/bin/activate
 ```
 # Manuals
 - [data conversion](manuals/data_conversion.md) 
-- [waveform analysis](manuals/waveform_analysis.md)
+- [waveform analysis](manuals/waveform_analysis.rmd)
 
 ## Post-processing (Histogram, plots, etc)
 
