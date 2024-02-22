@@ -3,7 +3,7 @@ general:
   use_single_t_trace: false
   use_single_input_t_trace: false
   nchannels: 4
-  baseline_opt: 1
+  baseline_opt: 1 # opt 1: , opt 2: median filter
   run_type: 1
   do_max_ch: false
   threshold: 0
