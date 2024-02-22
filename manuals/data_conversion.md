@@ -15,24 +15,32 @@ python ~/BetaScope-DAQ/daq_runners/hdf5_to_root.py \
     --format 1 
 ```
 
-where the flags are: - `--mode scope` for single set of data conversion.
-batch version see below. - `--start 1` the first index of the data,
-e.g. `xxx_ch3_000001.h5`. - `--prefix xxx` the prefix of the file.
-e.g. `xxx_ch4_000001.h5`. - `use-mp` enable multiprocessing. -
-`--channels 3,4` saved channels.Use comma to separate channels. -
-`--format 1` format on how to identify file name pattern.
+where the flags are:
+
+- `--mode scope` for single set of data conversion. batch version see
+  below.
+- `--start 1` the first index of the data, e.g. `xxx_ch3_000001.h5`.
+- `--prefix xxx` the prefix of the file. e.g. `xxx_ch4_000001.h5`.
+- `use-mp` enable multiprocessing.
+- `--channels 3,4` saved channels.Use comma to separate channels.
+- `--format 1` format on how to identify file name pattern.
 
 Note on the `--format`, there are 3 different patterns, assuming file
-prefix with `xxx` and channel `N`: - Mode `0` is for `xxx_chN00001.h5`
-pattern. - Mode `1` is for `xxx00001_chN.h5` pattern. - Mode `2` is for
-`xxx00001.h5` pattern. Channel doesn’t matter in this case, so just
-specify any single number and it will be used as branch name.
+prefix with `xxx` and channel `N`:
+
+- Mode `0` is for `xxx_chN00001.h5` pattern.
+- Mode `1` is for `xxx00001_chN.h5` pattern.
+- Mode `2` is for `xxx00001.h5` pattern. Channel doesn’t matter in this
+  case, so just specify any single number and it will be used as branch
+  name.
 
 Other pattern can be easily implement, but it’s best to keep the data
 naming pattern consistent during the beam test.
 
 The conversion jobs can be specified in a `JSON` file for batch jobs. An
 example of `JSON` file is the following (`jobs.json`):
+
+    ```JSON
 
     {
         "HPK3p2" : [
@@ -79,6 +87,9 @@ example of `JSON` file is the following (`jobs.json`):
             }
         ]
     }
+
+
+    ```
 
 Then, to submit jobs from the `JSON` file via:
 
