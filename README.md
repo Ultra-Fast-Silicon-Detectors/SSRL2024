@@ -60,8 +60,12 @@ cd ..
 source py3/bin/activate
 ```
 # Manuals
-- [data conversion](manuals/data_conversion.md) 
-- [waveform analysis](manuals/waveform_analysis.md)
+- [data conversion](manuals/data_conversion.md): converting scope data to ROOT format.
+- [waveform analysis](manuals/waveform_analysis.md): analysis routines for waveform.
+- [post-processing](manuals/postprocessing.md): histograming, extracting energy, plots, etc.
+- [toy MC for Compton scattering](manuals/compton.md): generate compton cross-section with toy MC.
+- [GEANT sim](manuals/geant.md): geant simulation for LGADs and X-rays.
+- [TCAD sim](manuals/tcad.md): tcad simulation related things and results.
 
 ## Post-processing (Histogram, plots, etc)
 
