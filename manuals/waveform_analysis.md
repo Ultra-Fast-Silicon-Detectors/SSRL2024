@@ -20,28 +20,30 @@ setting for the `SSRL` analysis routine, e.g. baseline correction etc.
 
 The `ssrl_ana_config.yaml` contains the following:
 
-    general:
-      store_waveform: true
-      use_single_t_trace: false
-      use_single_input_t_trace: false
-      nchannels: 4
-      # opt 1: ARPLS PLS, opt 2: noise-median filter
-      baseline_opt: 1 
-      run_type: 1
-      do_max_ch: false
-      threshold: 0
+``` yaml
+general:
+  store_waveform: true
+  use_single_t_trace: false
+  use_single_input_t_trace: false
+  nchannels: 4
+  # opt 1: ARPLS PLS, opt 2: noise-median filter
+  baseline_opt: 1 
+  run_type: 1
+  do_max_ch: false
+  threshold: 0
 
-    # user need to specify a bucket start time
-    # the bucket_t_end is actually the step size.
-    # nbuckets is the number of increment for bucket.
-    buckets:
-      bucket_t_start: -44e-9
-      bucket_t_end: 2.08e-9
-      nbuckets: 28
+# user need to specify a bucket start time
+# the bucket_t_end is actually the step size.
+# nbuckets is the number of increment for bucket.
+buckets:
+  bucket_t_start: -44e-9
+  bucket_t_end: 2.08e-9
+  nbuckets: 28
 
-    # this control the fix time window search for pmax and tmax
-    fix_window:
-      fill_fix_window: true
-      fix_win_start: -44e-9
-      fix_win_step_size: 2.08e-9
-      fix_win_nstep: 28
+# this control the fix time window search for pmax and tmax
+fix_window:
+  fill_fix_window: true
+  fix_win_start: -44e-9
+  fix_win_step_size: 2.08e-9
+  fix_win_nstep: 28
+```

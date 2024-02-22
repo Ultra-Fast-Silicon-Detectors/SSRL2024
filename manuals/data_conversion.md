@@ -40,56 +40,53 @@ naming pattern consistent during the beam test.
 The conversion jobs can be specified in a `JSON` file for batch jobs. An
 example of `JSON` file is the following (`jobs.json`):
 
-    ```JSON
+``` json
+{
+    "HPK3p2" : [
+        {
+            "prefix" : "Run56_HPK_3p2_100V_35KeV_baselineE",
+            "channels" : [3],
+            "start_findex" : 1,
+            "output" : "HPK3p2",
+            "format" : 2,
+            "merge" : false,
+            "use_mp" : true
+        },
 
-    {
-        "HPK3p2" : [
-            {
-                "prefix" : "Run56_HPK_3p2_100V_35KeV_baselineE",
-                "channels" : [3],
-                "start_findex" : 1,
-                "output" : "HPK3p2",
-                "format" : 2,
-                "merge" : false,
-                "use_mp" : true
-            },
+        {
+            "prefix" : "Run58_HPK_3p2_130V_35KeV_baselineE",
+            "channels" : [3],
+            "start_findex" : 1,
+            "output" : "HPK3p2",
+            "format" : 2,
+            "merge" : false,
+            "use_mp" : true
+        }
+    ],
 
-            {
-                "prefix" : "Run58_HPK_3p2_130V_35KeV_baselineE",
-                "channels" : [3],
-                "start_findex" : 1,
-                "output" : "HPK3p2",
-                "format" : 2,
-                "merge" : false,
-                "use_mp" : true
-            }
-        ],
+    "BNL20um" : [
+        {
+            "prefix" : "Run100_BNL20um_100V_10keV_Att0p1percAT8p5kev",
+            "channels" : [3],
+            "start_findex" : 1,
+            "output" : "BNL20um",
+            "format" : 0,
+            "merge" : false,
+            "use_mp" : true
+        },
 
-        "BNL20um" : [
-            {
-                "prefix" : "Run100_BNL20um_100V_10keV_Att0p1percAT8p5kev",
-                "channels" : [3],
-                "start_findex" : 1,
-                "output" : "BNL20um",
-                "format" : 0,
-                "merge" : false,
-                "use_mp" : true
-            },
-
-            {
-                "prefix" : "Run64_BNL20um_80V_baselineE",
-                "channels" : [3],
-                "start_findex" : 1,
-                "output" : "BNL20um",
-                "format" : 0,
-                "merge" : false,
-                "use_mp" : true
-            }
-        ]
-    }
-
-
-    ```
+        {
+            "prefix" : "Run64_BNL20um_80V_baselineE",
+            "channels" : [3],
+            "start_findex" : 1,
+            "output" : "BNL20um",
+            "format" : 0,
+            "merge" : false,
+            "use_mp" : true
+        }
+    ]
+}
+```
 
 Then, to submit jobs from the `JSON` file via:
 
