@@ -13,7 +13,7 @@ Softwares and analysis pacakges are basically the same as the previous SSRL test
 
 - Data convertion and prep [BetaScope-DAQ](https://github.com/neko-0/BetaScope-DAQ): `https://github.com/neko-0/BetaScope-DAQ`
 - Waveoform analysis [WaveformAna](https://github.com/neko-0/WaveformAna): `https://github.com/neko-0/WaveformAna`
-- Histogram, pltos, fits etc `pyssrl`:
+- Histogram, energy extraction, fits etc `pyssrl`:
     - requires package [collinearw](https://gitlab.cern.ch/scipp/collinear-w/collinearw) : `https://gitlab.cern.ch/scipp/collinear-w/collinearw`
 
 ## Manual installation
@@ -44,21 +44,16 @@ The `Dockerfile` is provided to build the environment for waveform analysis, to 
 docker build -t ufsd_ssrl:1.0 .
 ```
 
-Then it should be available via (TODO: mount point etc)
+Then it should be available via (with mouting home directory)
 
 ```bash
-docker run -it ufsd_ssrl:1.0
+docker run -it -v $HOME:$HOME ufsd_ssrl:1.0
 ```
 
 # Setup enviornment
-After login or inside docker, run the following setup steps:
+After login or inside docker, run the setup script: `source setup.sh`. 
+This should setup the CMD alias and working python environment.
 
-```bash
-cd WaveformAna
-source setup.sh
-cd ..
-source py3/bin/activate
-```
 # Manuals
 - [data conversion](manuals/data_conversion.md): converting scope data to ROOT format.
 - [waveform analysis](manuals/waveform_analysis.md): analysis routines for waveform.

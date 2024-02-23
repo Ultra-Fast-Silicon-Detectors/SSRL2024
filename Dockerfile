@@ -5,6 +5,7 @@ SHELL ["/bin/bash", "-c"]
 ENV DEBIAN_FRONTEND noninteractive
 COPY packages packages
 COPY collinearw.tar.gz collinearw.tar.gz
+COPY setup.sh setup.sh
 RUN apt-get -y update \
     && apt-get install -y --no-install-recommends apt-utils \
     && apt-get -y install $(cat packages)
