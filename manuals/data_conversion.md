@@ -21,18 +21,18 @@ where the flags are:
   below.
 - `--start 1` the first index of the data, e.g. `xxx_ch3_000001.h5`.
 - `--prefix xxx` the prefix of the file. e.g. `xxx_ch4_000001.h5`.
-- `use-mp` enable multiprocessing.
+- `--use-mp` enable multiprocessing.
 - `--channels 3,4` saved channels.Use comma to separate channels.
 - `--format 1` format on how to identify file name pattern.
 
 Note on the `--format`, there are 3 different patterns, assuming file
 prefix with `xxx` and channel `N`:
 
-- Mode `0` is for `xxx_chN00001.h5` pattern.
-- Mode `1` is for `xxx00001_chN.h5` pattern.
-- Mode `2` is for `xxx00001.h5` pattern. Channel doesn’t matter in this
-  case, so just specify any single number and it will be used as branch
-  name.
+- Format `0` is for `xxx_chN00001.h5` pattern.
+- Format `1` is for `xxx00001_chN.h5` pattern.
+- Format `2` is for `xxx00001.h5` pattern. Channel doesn’t matter in
+  this case, so just specify any single number and it will be used as
+  branch name.
 
 Other pattern can be easily implement, but it’s best to keep the data
 naming pattern consistent during the beam test.
