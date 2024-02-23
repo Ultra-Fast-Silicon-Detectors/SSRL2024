@@ -51,10 +51,23 @@ docker run -it -v $HOME:$HOME ufsd_ssrl:1.0
 ```
 
 # Setup enviornment
-After login or inside docker, run the setup script: `source setup.sh`. 
-This should setup the CMD alias and working python environment.
 
-# Manuals
+To setup the commandlines alias and working python environment
+
+## On docker
+After login or inside docker, run the setup script: `source setup.sh`. 
+
+## Manual setup
+To setup the waveform alais from `WaveformAna` and activate the python virtual environment
+
+```bash
+cd WaveformAna
+source setup.sh
+cd ..
+source py3/bin/activate
+```
+
+# Manuals and instructions
 - [data conversion](manuals/data_conversion.md): converting scope data to ROOT format.
 - [waveform analysis](manuals/waveform_analysis.md): analysis routines for waveform.
 - [post-processing](manuals/postprocessing.md): histograming, extracting energy, plots, etc.
