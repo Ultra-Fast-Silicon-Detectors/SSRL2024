@@ -5,9 +5,15 @@ Data conversion, scripts for analsys routines and methods, and logbook infomatio
 
 Logbook and shift schedule can be found here: [2024_SSRL_run](https://drive.google.com/drive/folders/1eRdXsyAIbnhs2xJvsL8nBAKjm6VIcOl0?usp=sharing)
 
-Beam test data will be stored on the UFSD NAS. 
+Beam test data will be stored on the UFSD NAS:
+ + raw data: `/volume1/SSRL_2024/`
+ + ntuples: `/volume1/SSRL_2024_ntuples/`
 
-Softwares and analysis pacakges are basically the same as the previous SSRL test beam.
+The conversion `JSON` for `h5` to `ROOT` is now in `/configs/real_jobs.json`
+
+# Updates (2024/03/01)
+
+Data conversion is happening. data from `20224/02/29` can be found on the NAS `/volume1/SSRL_2024_ntuples/`
 
 # Tools and analysis packages
 

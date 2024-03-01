@@ -388,5 +388,249 @@
             "use_mp" : true,
             "directory" : "./"
         }
+    ],
+
+    "FBK" : [
+        {
+            "prefix" : "Run38_FBK100_300V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run39_FBK100_200V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run40_FBK100_150V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run41_FBK100_250V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run42_FBK100_300V_14KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run43_FBK100_250V_14KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run44_FBK100_200V_14KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run45_FBK100_300V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run46_FBK100_250V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run47_FBK100_200V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run48_FBK150_350V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run49_FBK150_300V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run50_FBK150_250V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run51_FBK150_200V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run52_FBK150_350V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run53_FBK150_300V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run54_FBK150_250V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run55_FBK150_200V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run56_FBK150_350V_14KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run57_FBK150_300V_14KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run58_FBK150_250V_14KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run59_FBK150_200V_14KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        }
     ]
 }
