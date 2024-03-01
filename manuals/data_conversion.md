@@ -33,6 +33,8 @@ prefix with `xxx` and channel `N`:
 - Format `2` is for `xxx00001.h5` pattern. Channel doesn’t matter in
   this case, so just specify any single number and it will be used as
   branch name.
+- Format `3` is for `xxx_chN.h5` pattern. No file indexing in this
+  format.
 
 Other pattern can be easily implement, but it’s best to keep the data
 naming pattern consistent during the beam test.
