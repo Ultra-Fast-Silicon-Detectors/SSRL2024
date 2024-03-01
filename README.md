@@ -44,6 +44,12 @@ The `Dockerfile` is provided to build the environment for waveform analysis, to 
 docker build -t ufsd_ssrl:1.0 .
 ```
 
+If there is permission issue on `docker.sock`, try with:
+
+```bash
+sudo setfacl --modify user:$USER:rw /var/run/docker.sock
+```
+
 Then it should be available via (with mouting home directory)
 
 ```bash
