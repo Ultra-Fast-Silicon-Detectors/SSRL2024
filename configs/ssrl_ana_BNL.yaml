@@ -18,12 +18,12 @@ general:
 buckets:
   bucket_t_start: 23e-9
   bucket_t_end: 2.08e-9
-  nbuckets: 20
+  nbuckets: 50
 
 # this control the fix time window search for pmax and tmax
 fix_window:
   fill_fix_window: true
   fix_win_start: 23e-9
   fix_win_step_size: 2.08e-9
-  fix_win_nstep: 20
+  fix_win_nstep: 50
   fix_win_edge_dist: 0
