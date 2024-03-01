@@ -1,0 +1,392 @@
+{
+    "BNL" : [
+        {
+            "prefix" : "Run60_BNL_1cm_6_10_7_200V_14KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "BNL",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run61_BNL_1cm_6_10_7_200V_14KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "BNL",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run62_BNL_1cm_6_10_7_200V_14KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "BNL",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        }
+    ],
+
+    "HPK3p1_PIN" : [
+        {
+            "prefix" : "Run33_HPK31PIN_200V_16KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1_PIN",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run34_HPK31PIN_200V_14KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1_PIN",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run36_HPK31PIN_200V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1_PIN",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        }
+    ],
+
+    "HPK3p1" : [
+        {
+            "prefix" : "Run4_HPK31_80V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+        
+        {
+            "prefix" : "Run5_HPK31_230V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run6_HPK31_230V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run7_HPK31_200V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+        
+        {
+            "prefix" : "Run8_HPK31_150V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+        
+        {
+            "prefix" : "Run9_HPK31_100V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run10_HPK31_80V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run11_HPK31_80V_6KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run12_HPK31_100V_6KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run13_HPK31_150V_6KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run14_HPK31_200V_6KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run15_HPK31_230V_6KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run16_HPK31_80V_12KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run17_HPK31_100V_12KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run18_HPK31_150V_12KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run19_HPK31_200V_12KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run20_HPK31_230V_12KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run21_HPK31_230V_12KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run22_HPK31_200V_12KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run23_HPK31_80V_14KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run24_HPK31_100V_14KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run25_HPK31_150V_14KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run26_HPK31_200V_14KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run27_HPK31_230V_14KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run28_HPK31_80V_16KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run29_HPK31_100V_16KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run30_HPK31_150V_16KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run31_HPK31_200V_16KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run32_HPK31_230V_16KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        }
+    ]
+}

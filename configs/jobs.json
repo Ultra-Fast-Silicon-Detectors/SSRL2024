@@ -7,7 +7,8 @@
             "output" : "HPK3p2",
             "format" : 2,
             "merge" : false,
-            "use_mp" : true
+            "use_mp" : true,
+            "directory" : "/path_to_h5_files/"
         },
 
         {
@@ -17,7 +18,8 @@
             "output" : "HPK3p2",
             "format" : 2,
             "merge" : false,
-            "use_mp" : true
+            "use_mp" : true,
+            "directory" : "/path_to_h5_files/"
         }
     ],
 
@@ -29,7 +31,8 @@
             "output" : "BNL20um",
             "format" : 0,
             "merge" : false,
-            "use_mp" : true
+            "use_mp" : true,
+            "directory" : "/path_to_h5_files/"
         },
 
         {
@@ -39,7 +42,8 @@
             "output" : "BNL20um",
             "format" : 0,
             "merge" : false,
-            "use_mp" : true
+            "use_mp" : true,
+            "directory" : "/path_to_h5_files/"
         }
     ]
 }
