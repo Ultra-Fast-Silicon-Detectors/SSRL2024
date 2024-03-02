@@ -26,3 +26,11 @@ cat(paste0("```","YAML","\n"))
 cat(readLines('../configs/ssrl_ana_config.yaml', warn=FALSE), sep = '\n')
 cat("\n```\n")
 ```
+
+## Running quick heatmap for scan runs
+
+Heatmap of pmax can be quickly generated for scan runs with the following:
+
+```{r, engine='bash', eval=FALSE}
+run_Ana --selector QuickScan --directory <path_to_scan_root_files> --config </configs/heatmap.yaml>
+```

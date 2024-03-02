@@ -47,3 +47,12 @@ fix_window:
   fix_win_step_size: 2.08e-9
   fix_win_nstep: 28
 ```
+
+## Running quick heatmap for scan runs
+
+Heatmap of pmax can be quickly generated for scan runs with the
+following:
+
+``` bash
+run_Ana --selector QuickScan --directory <path_to_scan_root_files> --config </configs/heatmap.yaml>
+```
