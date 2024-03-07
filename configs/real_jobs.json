@@ -56,6 +56,17 @@
             "use_mp" : true,
             "directory" : "./"
         },
+        
+        {
+            "prefix" : "Run35_HPK31PIN_200V_12KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1_PIN",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
 
         {
             "prefix" : "Run36_HPK31PIN_200V_10KeV",
