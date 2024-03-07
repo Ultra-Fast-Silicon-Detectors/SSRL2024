@@ -623,10 +623,465 @@
         },
 
         {
-            "prefix" : "Run59_FBK150_200V_14KeV",
+            "prefix" : "Run108_FBK_TI_n4_300V_14KeV",
             "channels" : [1,2],
             "start_findex" : 1,
             "output" : "FBK",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        }
+    ],
+
+    "FBK_TI" : [
+        {
+            "prefix" : "Run110_FBK_TI_n4_100V_14KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run111_FBK_TI_n4_300V_16KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run112_FBK_TI_n4_200V_16KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run113_FBK_TI_n4_100V_16KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run114_FBK_TI_n4_300V_12KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run115_FBK_TI_n4_200V_12KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run116_FBK_TI_n4_100V_12KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run117_FBK_TI_n4_300V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run118_FBK_TI_n4_200V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run119_FBK_TI_n4_100V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run120_FBK_TI_n4_300V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run121_FBK_TI_n4_200V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run122_FBK_TI_n4_100V_8KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run123_FBK_TI_n4_300V_6KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run124_FBK_TI_n4_200V_6KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run125_FBK_TI_n4_300V_6KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run126_FBK_TI_n4_200V_6KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run127_FBK_TI_n4_100V_6KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "FBK_TI",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        }
+    ],
+
+    "FBK_RSDvarious" : [
+        {
+            "prefix" : "Run137_FBK_RSDvarious_300V_12KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run138_FBK_RSDvarious_200V_12KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run139_FBK_RSDvarious_100V_12KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run140_FBK_RSDvarious_300V_16KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run141_FBK_RSDvarious_200V_16KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run142_FBK_RSDvarious_100V_16KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run143_FBK_RSDvarious_300V_8KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run144_FBK_RSDvarious_200V_8KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run145_FBK_RSDvarious_100V_8KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run146_FBK_RSDvarious_pads_300V_16KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run147_FBK_RSDvarious_pads_200V_16KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run148_FBK_RSDvarious_pads_100V_16KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run149_FBK_RSDvarious_pads_300V_12KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run150_FBK_RSDvarious_pads_200V_12KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run151_FBK_RSDvarious_pads_100V_12KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run152_FBK_RSDvarious_pads_300V_8KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run153_FBK_RSDvarious_pads_200V_8KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run154_FBK_RSDvarious_pads_100V_8KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run155_FBK_RSDvarious_strips_300V_8KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run156_FBK_RSDvarious_strips_200V_8KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run157_FBK_RSDvarious_strips_100V_8KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run158_FBK_RSDvarious_strips_300V_12KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run159_FBK_RSDvarious_strips_200V_12KeV",
+            "channels" : [1,2,3,4],
+            "start_findex" : 1,
+            "output" : "FBK_RSDvarious",
             "format" : 3,
             "merge" : false,
             "use_mp" : true,
