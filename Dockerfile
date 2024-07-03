@@ -1,4 +1,4 @@
-FROM rootproject/root
+FROM rootproject/root:6.28.00-ubuntu22.04
 LABEL maintainer.name="SCIPP UFSD team"
 LABEL maintainer.email="yuzhao@ucsc.edu"
 SHELL ["/bin/bash", "-c"]
