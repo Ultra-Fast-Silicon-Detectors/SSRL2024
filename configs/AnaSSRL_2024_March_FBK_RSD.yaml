@@ -14,7 +14,16 @@ general:
   # opt 1: regular scope routine, opt 2: CAEN scan routine
   routine: 2
 
-# this control the bunch time window search for pmax and tmax
+# this control the fix time window search for pmax and tmax
+# bunch_start: 
+#   starting time for the 1st bunch
+# bunch_step_size: 
+#   size of the bunch spacing. 
+#   The 1st search window would be [bunch_start, bunch_start+bunch_step_size]
+# bunch_nstep:
+#   number of bunch search windows
+# bunch_edge_dist:
+#   just set it to zero for now.
 bunch_window:
   bunch_start: 240
   bunch_step_size: 10

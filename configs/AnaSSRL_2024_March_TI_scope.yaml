@@ -1,0 +1,25 @@
+general:
+  store_waveform: true
+  use_single_t_trace: true
+  use_single_input_t_trace: false
+  nchannels: 3
+  # opt 1: ARPLS PLS, opt 2: noise-median filter
+  baseline_opt: 1 
+  run_type: 1
+  do_max_ch: false
+  threshold: 0
+  trigger_ch: 2
+  invert_ch: [1,2]
+  simple_ana_ch: [2]
+  # opt 1: regular scope routine, opt 2: CAEN scan routine
+  routine: 1
+
+bunch_window:
+  bunch_start: 53.9e-9
+  bunch_step_size: 2.1e-9
+  bunch_nstep: 50
+  bunch_edge_dist: 0
+
+leading_signal:
+  tmin: -15.0e-9
+  tmax: 5.0e-9

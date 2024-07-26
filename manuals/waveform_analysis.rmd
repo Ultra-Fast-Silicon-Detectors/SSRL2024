@@ -23,7 +23,7 @@ The `ssrl_ana_config.yaml` contains the following:
 
 ```{r echo=FALSE, results='asis'}
 cat(paste0("```","YAML","\n"))
-cat(readLines('../configs/ssrl_ana_config.yaml', warn=FALSE), sep = '\n')
+cat(readLines('../configs/AnaSSRL_2024_March_FBK_RSD.yaml', warn=FALSE), sep = '\n')
 cat("\n```\n")
 ```
 

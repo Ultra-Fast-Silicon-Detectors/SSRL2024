@@ -23,29 +23,39 @@ The `ssrl_ana_config.yaml` contains the following:
 ``` yaml
 general:
   store_waveform: true
-  use_single_t_trace: false
-  use_single_input_t_trace: false
-  nchannels: 4
+  use_single_t_trace: true
+  use_single_input_t_trace: true
+  nchannels: 16
   # opt 1: ARPLS PLS, opt 2: noise-median filter
-  baseline_opt: 1 
+  baseline_opt: 1
   run_type: 1
   do_max_ch: false
   threshold: 0
-
-# user need to specify a bucket start time
-# the bucket_t_end is actually the step size.
-# nbuckets is the number of increment for bucket.
-buckets:
-  bucket_t_start: -44e-9
-  bucket_t_end: 2.08e-9
-  nbuckets: 28
+  trigger_ch: -1
+  invert_ch: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+  simple_ana_ch: [-1]
+  # opt 1: regular scope routine, opt 2: CAEN scan routine
+  routine: 2
 
 # this control the fix time window search for pmax and tmax
-fix_window:
-  fill_fix_window: true
-  fix_win_start: -44e-9
-  fix_win_step_size: 2.08e-9
-  fix_win_nstep: 28
+# bunch_start: 
+#   starting time for the 1st bunch
+# bunch_step_size: 
+#   size of the bunch spacing. 
+#   The 1st search window would be [bunch_start, bunch_start+bunch_step_size]
+# bunch_nstep:
+#   number of bunch search windows
+# bunch_edge_dist:
+#   just set it to zero for now.
+bunch_window:
+  bunch_start: 240
+  bunch_step_size: 10
+  bunch_nstep: 50
+  bunch_edge_dist: 0
+
+leading_signal:
+  tmin: -150.0
+  tmax: 50.0
 ```
 
 ## Running quick heatmap for scan runs
