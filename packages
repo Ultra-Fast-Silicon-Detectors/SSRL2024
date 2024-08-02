@@ -1,4 +1,5 @@
 git
+vim
 libboost-all-dev 
 libyaml-cpp-dev 
 libeigen3-dev
