@@ -11,14 +11,13 @@ RUN apt-get -y update \
     && apt-get install -y --no-install-recommends apt-utils \
     && apt-get -y install $(cat packages)
     # && rm /bin/sh && ln -s /bin/bash /bin/sh \
-# intalling Waveform analysis codes
-RUN git clone https://github.com/neko-0/WaveformAna \
-    && cd WaveformAna \
-    && source setup.sh \
-    && cmake --build $WAVEANA_BUILD_DIR 
 # creating python venv
 RUN ["python", "-m", "pip", "install", "--upgrade", "pip"]
 RUN ["python", "-m", "venv", "py3"]
+# intalling Waveform analysis codes
+RUN git clone https://github.com/neko-0/WaveformAna \
+    && source WaveformAna/setup.sh \
+    && cmake --build $WAVEANA_BUILD_DIR
 # installing BetaScope-DAQ
 RUN git clone -b update/restructure https://github.com/neko-0/BetaScope-DAQ \
     && source py3/bin/activate \
