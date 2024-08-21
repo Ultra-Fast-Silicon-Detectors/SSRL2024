@@ -82,6 +82,39 @@
 
     "HPK3p1" : [
         {
+            "prefix" : "Run1_HPK31_200V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run2_HPK31_150V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
+            "prefix" : "Run3_HPK31_100V_10KeV",
+            "channels" : [1,2],
+            "start_findex" : 1,
+            "output" : "HPK3p1",
+            "format" : 3,
+            "merge" : false,
+            "use_mp" : true,
+            "directory" : "./"
+        },
+
+        {
             "prefix" : "Run4_HPK31_80V_10KeV",
             "channels" : [1,2],
             "start_findex" : 1,
